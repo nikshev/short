@@ -10,7 +10,7 @@ object Main extends App with AppConfiguration with RestInterface {
   val host = config.getString("http.host")
   val port = config.getInt("http.port")
 
-  implicit val system = ActorSystem("linkr-service")
+  implicit val system = ActorSystem("short-service")
   implicit val materializer = ActorMaterializer()
 
   implicit val executionContext = system.dispatcher

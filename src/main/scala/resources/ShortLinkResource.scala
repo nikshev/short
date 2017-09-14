@@ -2,6 +2,7 @@ package resources
 import akka.http.scaladsl.server.Route
 import entities.ShortLink
 import routing.JsonResource
+import services.ShortLinkService
 
 trait ShortLinkResource extends JsonResource {
 

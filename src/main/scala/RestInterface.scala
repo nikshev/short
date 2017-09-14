@@ -1,6 +1,6 @@
 import akka.http.scaladsl.server.Route
-import com.vaiski.linkr.resources.ShortLinkResource
-import com.vaiski.linkr.services.ShortLinkService
+import resources.ShortLinkResource
+import services.ShortLinkService
 
 import scala.concurrent.ExecutionContext
 
